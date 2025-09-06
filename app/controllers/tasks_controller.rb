@@ -29,11 +29,10 @@ class TasksController < ApplicationController
     end
   end
 
-  def destroy
-    ActionCable.server.broadcast("tasks_channel", { id: @task.id, deleted: true })
-    @task.destroy!
-  end
-
+def destroy
+  # ActionCable.server.broadcast("tasks_channel", { id: @task.id, deleted: true })
+  @task.destroy!
+end
   private
     def set_task
       @task = Task.find(params[:id])
