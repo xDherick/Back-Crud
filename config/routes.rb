@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   resources :tasks, except: [:new, :edit] do
-    resources :comments, only: [:create]
+    resources :comments, only: [:create, :destroy]
   end
 end
