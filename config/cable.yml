@@ -1,11 +1,12 @@
 default: &default
-  adapter: postgresql
+  adapter: async
 
 development:
-  adapter: async
+  <<: *default
 
 test:
   adapter: test
 
 production:
-  <<: *default
+  adapter: redis
+  url: <%= ENV["REDIS_URL"] %>
