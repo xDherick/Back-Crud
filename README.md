@@ -2,9 +2,13 @@
 
 Esta é a API RESTful para o projeto "Meu Condomínio" de gerenciamento de tarefas. Construída com Ruby on Rails, ela serve como a espinha dorsal para a aplicação, gerenciando toda a lógica de negócios e a persistência de dados.
 
-A API foi publicada e está online no Render e realizando integrações em tempo real no frontend hospedado em vercel. 
+A API foi publicada e está online no Render. Você pode visualizar todas as tarefas e verificar se está online em: 
 
-Link: https://meu-condominio-xdhericks-projects.vercel.app
+https://back-crud-8t75.onrender.com/tasks
+
+Integrações em tempo real no frontend Angular hospedado em vercel:
+
+https://meu-condominio-xdhericks-projects.vercel.app
 
 ## ✨ Funcionalidades
 
